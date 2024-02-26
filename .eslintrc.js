@@ -2,7 +2,8 @@ module.exports = {
   "env": {
     "browser": true,
     "es6": true,
-    "jest/globals": true
+    "jest/globals": true,
+    "node": true // This line is for Node.js global variables and Node-specific rules.
   },
   "extends": [
     "eslint:recommended",
