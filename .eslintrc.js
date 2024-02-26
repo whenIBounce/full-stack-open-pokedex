@@ -1,50 +1,50 @@
 module.exports = {
-  "env": {
-    "browser": true,
-    "es6": true,
-    "jest/globals": true,
-    "node": true // This line is for Node.js global variables and Node-specific rules.
+  'env': {
+    'browser': true,
+    'es6': true,
+    'jest/globals': true,
+    'node': true // This line is for Node.js global variables and Node-specific rules.
   },
-  "extends": [
-    "eslint:recommended",
-    "plugin:react/recommended"
+  'extends': [
+    'eslint:recommended',
+    'plugin:react/recommended'
   ],
-  "parserOptions": {
-    "ecmaFeatures": {
-      "jsx": true
+  'parserOptions': {
+    'ecmaFeatures': {
+      'jsx': true
     },
-    "ecmaVersion": 2018,
-    "sourceType": "module"
+    'ecmaVersion': 2018,
+    'sourceType': 'module'
   },
-  "plugins": [
-    "react", "jest"
+  'plugins': [
+    'react', 'jest'
   ],
-  "rules": {
-    "indent": [
-      "error",
+  'rules': {
+    'indent': [
+      'error',
       2
     ],
-    "linebreak-style": [
-      "error",
-      "unix"
+    'linebreak-style': [
+      'error',
+      'unix'
     ],
-    "quotes": [
-      "error",
-      "single"
+    'quotes': [
+      'error',
+      'single'
     ],
-    "semi": [
-      "error",
-      "never"
+    'semi': [
+      'error',
+      'never'
     ],
-    "eqeqeq": "error",
-    "no-trailing-spaces": "error",
-    "object-curly-spacing": [
-      "error", "always"
+    'eqeqeq': 'error',
+    'no-trailing-spaces': 'error',
+    'object-curly-spacing': [
+      'error', 'always'
     ],
-    "arrow-spacing": [
-      "error", { "before": true, "after": true }
+    'arrow-spacing': [
+      'error', { 'before': true, 'after': true }
     ],
-    "no-console": "error",
-    "react/prop-types": 0
+    'no-console': 'error',
+    'react/prop-types': 0
   }
 }
